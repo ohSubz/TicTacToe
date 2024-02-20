@@ -9,6 +9,7 @@ def print_board(board):
         print(" | ".join(board[i:i+3]))                                         #Erstellt jede Zeile des Spielfelds.
         if i < 6:
             print("-" * 9)
+            
 #Erstellen des Spielzugs der Spieler#
 def make_move(board, player):
     while True:
